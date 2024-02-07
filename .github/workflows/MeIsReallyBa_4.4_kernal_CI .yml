@@ -71,7 +71,7 @@ jobs:
           echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> $m.config #smartdns
           echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> $m.config #adg DNS去AD
           ##内网穿透服务##
-          echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> $m.config #zerotier ~1.3M
+          echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> $m.config #zerotier ~1.3M
           echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> $m.config #aliddns
           echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> $m.config #ddnsto  ~0.5M
           echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> $m.config  #ALDRIVER  ~3m
