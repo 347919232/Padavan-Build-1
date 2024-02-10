@@ -28,8 +28,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621"
-            targets: "R2100"
+          # - build_variant: "mt7621"
+            # targets: "R2100"
           - build_variant: "mt7620"
             targets: "PSG1218"
     steps:
